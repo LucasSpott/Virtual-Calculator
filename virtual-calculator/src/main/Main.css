@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    background-color: rgb(80, 70, 224);
+    padding: 0rem 10rem 18.2rem 0rem;
+    display: flex;
+
+    color: white;
+    font-family: 'Sora', sans-serif;
+}
+.main{
+    padding: 12rem 0rem 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+p, .p2{
+    display: flex;
+    margin-top: 1rem;
+}
+
+p:hover{
+    color: rgb(80, 70, 224);
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem 0.5rem 13rem;
+    transition: 1s;
+    cursor: pointer;
+}
+h1:hover{
+    color: rgb(80, 70, 224);
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.text-right{
+    display: flex;
+    margin-top: 10rem;
+    margin-left: 3rem;
+    position: absolute;
+}
+.right{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    padding-top: 18rem;                                           
+    margin-left: 52rem;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(8, 0, 0);
+    font-family: 'Sora', sans-serif;
+}
+h4{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.input-text{
+    
+    font-size: 1rem;
+    margin-top: 3px;
+    text-align: center;
+}
+input{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 3px;
+    font-family: 'Sora', sans-serif;
+    font-size: 12px;
+}
+#resultado{
+    background-color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    margin-left: 3px;
+    border-bottom: 1px solid black;
+    font-family: 'Sora', sans-serif;
+    font-size: 0.8rem;
+}
+#numero, #numero2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.accept{
+    text-align: center;
+    display: flex; 
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 19rem;
+    border-radius: 20px;
+}
