@@ -8,4 +8,4 @@
 
 ## GIF
 
-<img src="./recordvirtualcalculator.GIF">
+<img src="./recordvirtualcalculator.gif">
